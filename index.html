@@ -1,0 +1,48 @@
+<!DOCTYPE html> <!--Mostra qual a versão do HTML que estamos usando (no caso, 5, oculto)-->
+<html lang="pt-br"> <!-- tag de conteúdo "html" indica tudo que será renderizado no navegador / informa a linguagem da página-->
+
+<head> <!-- head são as informações que quero passar para o navegador -->
+    <meta charset="UTF-8"> <!-- resolve problemas de acentuação. UTF-8 é o dicionário que tem a grande maioria dos caracteres das línguas. -->
+    <title> Barbearia Alura </title> <!-- tag "title" altera o nome da página na aba do navegador -->
+    <link rel="stylesheet" href="style.css"> <!--link: ligação com o arquivo CSS / rel: relacionamento / stylesheet: folha de estilo / href: endereço referênia -->
+
+</head>
+
+<body> <!-- body são as informações que quero exibir na página -->
+    <header> <!-- Cabeçalho da página -->
+        <h1  class="titulo-principal">Barbearia Alura</h1>
+    </header> <!-- Cabeçalho da página -->
+    <img id="barbearia" src="barbearia.jpg"> <!--img: tag que chama imagem / src (source): referência da imagem / recomenda-se que a imagem esteja na mesma pasta do arquivo-->
+    <div class="principal"> <!-- Divide o primeiro bloco (Sobre a Barbearia...) do segundo (Benefícios) para formatação específica no CSS -->
+        <h2 class="titulo-centralizado">Sobre a Barbearia Alura</h2> <!-- "h1" indica o título da página --> <!-- stule="font-size: " altera o tamanho da fonte em CSS-->
+        
+        <p> Localizada no coração da cidade a <strong> Barbearia Alura </strong> traz para o
+            mercado o que há de melhor para o seu cabelo e barba.
+            Fundada em 2019, a Barbearia Alura já é destaque na cidade e conquista novos clientes a cada dia. </p> <!--Todo parágrafo começa com p-->
+        <!-- "strong" deixa as letras em negrito -->
+        <!-- "em" deixa as letras em itálico -->
+        <p id="missão"><em> Nossa missão é: <strong> "Proporcionar auto-estima e qualidade
+                    de vida aos clientes" </strong> . </em></p>
+
+        <p> Oferecemos profissionais experientes e antenados às mudanças no mundo da moda.
+            O atendimento possui padrão de excelência e agilidade, garantindo qualidade e satisfação dos nossos clientes.
+        </p>
+    </div>
+
+    <div class="beneficios"> <!-- Divide o primeiro bloco (Sobre a Barbearia...) do segundo (Benefícios) para formatação específica no CSS -->
+
+        <h3 class="titulo-centralizado">Benefícios</h3>
+
+        <img id="beneficios" src="beneficios.jpg">
+
+        <ul>  <!--Lista / "itens" representa uma classe no CSS com formatação específica -->
+            <li class="itens">Atendimento aos clientes</li>  <!--Lista / "itens" representa uma classe no CSS com formatação específica -->
+            <li class="itens">Espaço Diferenciado</li>  <!--Lista / "itens" representa uma classe no CSS com formatação específica -->
+            <li class="itens">Localização</li>  <!--Lista / "itens" representa uma classe no CSS com formatação específica -->
+            <li class="itens">Profissionais Qualificados</li>  <!--Lista / "itens" representa uma classe no CSS com formatação específica -->
+        </ul>
+
+    </div>
+</body>
+
+</html>

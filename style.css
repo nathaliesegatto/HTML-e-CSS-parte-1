@@ -1,0 +1,49 @@
+.titulo-principal {
+    padding-left: 20px;
+}
+
+#barbearia { /*referência à imagem barbearia.jpg */
+    width: 95%; /* largura da imagem na tela */
+    height: 550px /* altura da imagem na tela */
+}
+
+.principal{
+    background: #CCCCCC;
+    padding: 30px;
+}
+
+.titulo-centralizado {
+    text-align: center;
+}
+
+p { 
+    text-align: center;
+}
+
+#missão { /* "#" faz referência ao identificador "missão", que identifica um determinado parágrafo no arquivo html */
+    font-size: 20px
+}
+
+em strong { /*referência aos "strongs" que estão dentro dos "em"*/
+    color: red 
+} 
+
+.itens {/*"." faz referência à classe itens */
+     font-style: italic
+}
+
+.beneficios {
+    background: #FFFFFF;
+    padding: 20px
+}
+
+#beneficios {
+    width: 50%
+}
+
+ul {
+    display: inline-block; /*  */
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%
+}
